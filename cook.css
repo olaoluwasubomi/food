@@ -1,0 +1,74 @@
+*{
+    padding:0;
+    margin:0;
+}
+/*************PARAGRAPH STYLING*********/
+.paragraph{
+    text-align:center;
+    text-transform: uppercase;
+    padding:40px;
+    font-size:40px;
+    font-family:Arial, Helvetica, sans-serif;
+    color:wheat;
+    height:20vh;
+    background-image:url("img/img3.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position:center;
+}
+/************END OF PARAGRAPHING STYLING**********/
+.section , first , second{
+    background-color:teal;
+    height:110vh;
+}
+.first{
+    height:30vh;
+   /* background-color:white; */
+   text-align:center;
+   padding:50px;
+}
+.first table ,th ,td{
+    border:1px solid black;
+}
+.first table , th{
+    text-transform: uppercase;
+    font-size:20px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding:30px;
+}
+.first table , td{
+    text-transform:capitalize;
+}
+.light{
+    text-align:center;
+    text-transform:uppercase;
+    font-size:30px;
+}
+.second{
+    height:30vh;
+    text-align:center;
+    padding:50px;
+}
+.second th , td{
+    border:1px solid black;
+}
+.second  , th{
+    text-transform: uppercase;
+    font-size:20px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding:30px;
+}
+.second td{
+    text-transform: capitalize;
+}
+div a{
+    text-decoration: none;
+    text-align:center;
+    text-transform: capitalize;
+    font-size:30px;
+    font-family: Arial, Helvetica, sans-serif;
+    color:black;
+}
+a:hover{
+    font-style:italic;
+}
